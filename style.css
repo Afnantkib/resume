@@ -268,6 +268,8 @@ transition: all 1s;
 }
 .projectlist2{
     background-image: url('./images/pr2.jpeg');
+    /* background-repeat: no-repeat; */
+    background-size: inherit;
 }
 .projectlist3{
     background-image: url('./images/pr3.jpeg');
@@ -371,9 +373,11 @@ text-decoration: none;
 }
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: #7c7c7c;
 }
-
+a:hover{
+    opacity: 1 !important;
+}
 .projectlist:hover{
 
 opacity: .2;
@@ -387,7 +391,7 @@ transform: all .7s;
     top: 30px;
   opacity: .5;
 }
-.imgtext:hover{color: black;
+.imgtext:hover{color: rgb(255, 255, 255);
     position: relative;
 opacity: 1;
     top: 0px;
